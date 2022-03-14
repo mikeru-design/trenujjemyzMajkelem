@@ -1,0 +1,196 @@
+@import '_reset.scss';
+@import '_colors.scss';
+
+html {
+	scroll-padding-top: 76px;
+}
+
+body {
+	position: relative;
+	// width: 100vw;
+	// overflow-y: hidden;
+	background-color: rgb(138, 138, 138);
+	font-family: 'Montserrat', sans-serif;
+	// scroll-behavior: smooth;
+}
+.navbar {
+	top: 0;
+	position: sticky;
+	background-color: $freshMint;
+	transition: box-shadow 0.5s;
+	z-index: 200;
+
+	.navbar-nav {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+		padding: 3rem 0;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: 1px;
+
+		.nav-link {
+			position: relative;
+			font-size: 0.8rem;
+			padding-right: 0;
+			padding-left: 0;
+			padding: 0.8rem 0px;
+			margin: 0 1rem;
+			color: $mainLogoColor;
+			&::first-letter {
+				font-size: 1rem;
+			}
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 0;
+				// right: 50%;
+				width: 100%;
+				height: 2px;
+				background-color: $mainLogoColor;
+				transform: scaleX(0);
+				// transform-origin: center;
+				transition: transform 0.3s;
+			}
+			&:hover {
+				&::before {
+					transform: scaleX(1);
+				}
+			}
+		}
+		.active {
+			font-weight: 700;
+		}
+	}
+	.navbar-toggler {
+		box-shadow: none;
+	}
+	.navbar-toggler-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $mainLogoColor;
+		.fas {
+			font-size: 2rem;
+		}
+	}
+	.navbar-brand {
+		display: inline-block;
+		width: 200px;
+		height: 60px;
+		margin: 5px 0;
+		background-image: url(../img/trenujjemy-Logo-Flat.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		transition: height 0.5s;
+	}
+	.smaller-Nav-Logo {
+		height: 50px;
+	}
+}
+.shadow-BG {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+section {
+	width: auto;
+	min-height: 110vh;
+}
+
+.title{
+	p{
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: center;
+		padding: 2rem;
+	}
+}
+
+#home {
+	background-color: rgb(0, 195, 255);
+	#homeCarousel {
+		height: 70vh;
+		width: 100%;
+		margin: 0 auto;
+		.carousel-indicators{
+			// margin-bottom: 10px;
+			bottom: 15px;
+			z-index: 5;
+		}
+		.carousel-inner {
+			height: 100%;
+			width: auto;
+			.carousel-item {
+				position: relative;
+				height: 100%;
+				// background-color: $mainLogoColor;
+				// background-size: 130%;
+				// background-position: center;
+				// background-repeat: no-repeat;
+				// &::before {
+				// 	content: '';
+				// 	display: block;
+				// 	position: absolute;
+				// 	bottom: 0;
+				// 	// right: 50%;
+				// 	width: 100%;
+				// 	height: 100%;
+				// 	background-color: $mainLogoColorOpacity;
+				// 	z-index: 1;
+				// }
+				img {
+					display: inline-block;
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					height: auto;
+					width: 100%;
+					z-index: 0;
+				}
+				.carousel-caption {
+					// width: 100vw;
+					left: 0;
+					right: 0;
+					padding: 30px;
+					// color: $mainLogoColor;
+					// background-color: $secondLogoColor;
+					background-color: $mainLogoColor;
+					z-index: 2;
+				}
+			}
+		}
+	}
+}
+#about {
+	background-color: rgb(235, 135, 213);
+}
+#degrees {
+	background-color: rgb(95, 216, 176);
+}
+#services {
+	background-color: rgb(255, 247, 172);
+}
+#pricing {
+	background-color: rgb(0, 195, 255);
+}
+#cooperation {
+	background-color: rgb(255, 116, 225);
+}
+#contact {
+	background-color: rgb(56, 58, 190);
+}
+
+@media (min-width: 992px) {
+	.navbar {
+		.navbar-nav {
+			justify-content: flex-end;
+			padding: 0;
+			.nav-link {
+				padding: 0.5rem 0;
+			}
+		}
+	}
+}

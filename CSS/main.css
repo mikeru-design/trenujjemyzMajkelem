@@ -1,0 +1,219 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 76px;
+}
+
+body {
+  position: relative;
+  background-color: #8a8a8a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #93ffff;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  z-index: 200;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  padding: 3rem 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  font-size: 0.8rem;
+  padding-right: 0;
+  padding-left: 0;
+  padding: 0.8rem 0px;
+  margin: 0 1rem;
+  color: #472737;
+}
+
+.navbar .navbar-nav .nav-link::first-letter {
+  font-size: 1rem;
+}
+
+.navbar .navbar-nav .nav-link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #472737;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.navbar .navbar-nav .nav-link:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar .navbar-nav .active {
+  font-weight: 700;
+}
+
+.navbar .navbar-toggler {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .navbar-toggler-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #472737;
+}
+
+.navbar .navbar-toggler-icon .fas {
+  font-size: 2rem;
+}
+
+.navbar .navbar-brand {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  margin: 5px 0;
+  background-image: url(../img/trenujjemy-Logo-Flat.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.navbar .smaller-Nav-Logo {
+  height: 50px;
+}
+
+.shadow-BG {
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+section {
+  width: auto;
+  min-height: 110vh;
+}
+
+.title p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 2rem;
+}
+
+#home {
+  background-color: #00c3ff;
+}
+
+#home #homeCarousel {
+  height: 70vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#home #homeCarousel .carousel-indicators {
+  bottom: 15px;
+  z-index: 5;
+}
+
+#home #homeCarousel .carousel-inner {
+  height: 100%;
+  width: auto;
+}
+
+#home #homeCarousel .carousel-inner .carousel-item {
+  position: relative;
+  height: 100%;
+}
+
+#home #homeCarousel .carousel-inner .carousel-item img {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: auto;
+  width: 100%;
+  z-index: 0;
+}
+
+#home #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background-color: #472737;
+  z-index: 2;
+}
+
+#about {
+  background-color: #eb87d5;
+}
+
+#degrees {
+  background-color: #5fd8b0;
+}
+
+#services {
+  background-color: #fff7ac;
+}
+
+#pricing {
+  background-color: #00c3ff;
+}
+
+#cooperation {
+  background-color: #ff74e1;
+}
+
+#contact {
+  background-color: #383abe;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+0000000000000000000000000000000000000000 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647255783 +0100	commit (initial): first commit trenujjemy z Majkelem
+14ad404dd43c740c0bb53fb10bbf50680890ffee 0000000000000000000000000000000000000000 mikeru <sajna.michal@gmail.com> 1647255882 +0100	Branch: renamed refs/heads/main to refs/heads/main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647255882 +0100	Branch: renamed refs/heads/main to refs/heads/main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647255969 +0100	checkout: moving from main to NoCarousel
+14ad404dd43c740c0bb53fb10bbf50680890ffee 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647256094 +0100	commit: deleted carousel in home
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647256365 +0100	checkout: moving from NoCarousel to NewColors
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647256641 +0100	commit: chaged main and section colors
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257238 +0100	checkout: moving from NewColors to main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257316 +0100	checkout: moving from main to colorsAndCarousel
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647257352 +0100	merge NewColors: Fast-forward
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257556 +0100	checkout: moving from colorsAndCarousel to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647257622 +0100	checkout: moving from 14ad404dd43c740c0bb53fb10bbf50680890ffee to colorsAndCarousel
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257647 +0100	checkout: moving from colorsAndCarousel to main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647257679 +0100	checkout: moving from main to colorsAndCarousel
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257706 +0100	checkout: moving from colorsAndCarousel to main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647257712 +0100	checkout: moving from main to colorsAndCarousel
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257744 +0100	checkout: moving from colorsAndCarousel to main
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647257763 +0100	merge colorsAndCarousel: Fast-forward
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647257891 +0100	checkout: moving from main to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647258523 +0100	checkout: moving from 14ad404dd43c740c0bb53fb10bbf50680890ffee to colorsAndCarousel
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647259859 +0100	checkout: moving from colorsAndCarousel to main
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647259984 +0100	checkout: moving from main to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260024 +0100	checkout: moving from 14ad404dd43c740c0bb53fb10bbf50680890ffee to main
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260070 +0100	checkout: moving from main to colorsAndCarousel
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260141 +0100	checkout: moving from colorsAndCarousel to 520450b6356cf287e21fedcd424375718dee18da
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260582 +0100	checkout: moving from 520450b6356cf287e21fedcd424375718dee18da to main
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260637 +0100	checkout: moving from main to NewColors
+520450b6356cf287e21fedcd424375718dee18da 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647260689 +0100	checkout: moving from NewColors to NoCarousel
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260702 +0100	checkout: moving from NoCarousel to NewColors
+520450b6356cf287e21fedcd424375718dee18da 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647260708 +0100	checkout: moving from NewColors to NoCarousel
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260720 +0100	checkout: moving from NoCarousel to main
+520450b6356cf287e21fedcd424375718dee18da 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647260778 +0100	checkout: moving from main to NoCarousel
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260786 +0100	checkout: moving from NoCarousel to main
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260798 +0100	checkout: moving from main to NewColors
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260813 +0100	checkout: moving from NewColors to main
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647260816 +0100	checkout: moving from main to NewColors
+520450b6356cf287e21fedcd424375718dee18da 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647260821 +0100	checkout: moving from NewColors to NoCarousel
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261323 +0100	checkout: moving from NoCarousel to main
+520450b6356cf287e21fedcd424375718dee18da 1ae6f64fdd369a90aab5485a3492d069ebaeb62e mikeru <sajna.michal@gmail.com> 1647261334 +0100	checkout: moving from main to NoCarousel
+1ae6f64fdd369a90aab5485a3492d069ebaeb62e 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261342 +0100	merge main: Fast-forward
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647261383 +0100	checkout: moving from NoCarousel to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261417 +0100	checkout: moving from 14ad404dd43c740c0bb53fb10bbf50680890ffee to main
+520450b6356cf287e21fedcd424375718dee18da 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261426 +0100	checkout: moving from main to NoCarousel
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647261433 +0100	checkout: moving from NoCarousel to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261461 +0100	merge main: Fast-forward
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647261476 +0100	checkout: moving from 520450b6356cf287e21fedcd424375718dee18da to 14ad404dd43c740c0bb53fb10bbf50680890ffee
+14ad404dd43c740c0bb53fb10bbf50680890ffee 520450b6356cf287e21fedcd424375718dee18da mikeru <sajna.michal@gmail.com> 1647261514 +0100	checkout: moving from 14ad404dd43c740c0bb53fb10bbf50680890ffee to main
+520450b6356cf287e21fedcd424375718dee18da 14ad404dd43c740c0bb53fb10bbf50680890ffee mikeru <sajna.michal@gmail.com> 1647261538 +0100	checkout: moving from main to 14ad404dd43c740c0bb53fb10bbf50680890ffee
