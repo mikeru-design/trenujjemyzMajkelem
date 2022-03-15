@@ -139,10 +139,12 @@ section {
 
 #home {
   background-color: #00c3ff;
+  min-height: 90vh;
+  height: auto;
 }
 
 #home #homeCarousel {
-  height: 70vh;
+  height: calc(100vh - 86px);
   width: 100%;
   margin: 0 auto;
 }
